@@ -1,0 +1,11 @@
+node_modules
+coverage
+.env
+.gitignore
+package-lock.json
+package.json
+gas-report.txt
+coverage.json
+artifacts
+cache
+deployments

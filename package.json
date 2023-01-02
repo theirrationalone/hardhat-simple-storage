@@ -1,0 +1,32 @@
+{
+  "name": "project-01-hardhat",
+  "version": "1.0.0",
+  "description": "simpleStorage smart contract with hardhat and ethersjs",
+  "main": "scripts/deploy.js",
+  "scripts": {
+    "test": "npx hardhat test"
+  },
+  "keywords": [
+    "hardhat",
+    "soldity",
+    "javascript",
+    "ethersjs",
+    "nodejs",
+    "smartContracts",
+    "hybrid-smartContracts",
+    "backend",
+    "npm"
+  ],
+  "author": "theirrationalone",
+  "license": "MIT",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^2.0.0",
+    "hardhat": "^2.12.5",
+    "solhint": "^3.3.7"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "prettier": "^2.8.1",
+    "prettier-plugin-solidity": "^1.1.1"
+  }
+}

@@ -1,0 +1,15 @@
+{
+    "extends": "solhint:recommended",
+    "rules": {
+        "avoid-suicide": "error",
+        "avoid-sha3": "warn",
+        "compiler-version": "off",
+        "func-visibility": [
+            "warn",
+            {
+                "ignoreConstructors": false
+            }
+        ],
+        "var-name-mixedcase": "off"
+    }
+}
